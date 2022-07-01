@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+.menu_content {
+  display: none;
+  width: 237px;
+  height: 178px;
+  position: fixed;
+  top: 72px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu_content a {
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu_content a:hover {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: rgba(44, 45, 46, 0.04);
+}
+
+.menu:hover .menu_content {
+  display: block;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+// Иконка пользователя.
+.menu_user {
+  background-image: url('../../../assets/img/user.png');
+  background-repeat: no-repeat;
+  background-position-y: 24px;
+  padding-top: 13px;
+  padding-left: 33px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #424242;
+}
+.menu_user:hover {
+  background-image: url('../../../assets/img/people_blue.png');
+  color: #4877f2;
+}
+
+// Иконка почты.
+.menu_email {
+  background-image: url('../../../assets/img/email.png');
+  padding-top: 24px;
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  font-family: 'Jost';
+  font-style: normal;
+  background-position-y: 24px;
+  background-position-x: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2c2d2e;
+  opacity: 0.8;
+}
+
+// Иконка книги.
+.menu_book {
+  background-image: url('../../../assets//img//book.png');
+  background-repeat: no-repeat;
+  font-family: 'Jost';
+  font-style: normal;
+  padding-top: 17px;
+  background-position-y: 34.5px;
+  background-position-x: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2c2d2e;
+  opacity: 0.8;
+}
+
+// Иконка выхода.
+.menu_exit {
+  background-image: url('../../../assets//img//exit.png');
+  background-repeat: no-repeat;
+  font-family: 'Jost';
+  background-position-y: 17.5px;
+  background-position-x: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2c2d2e;
+  opacity: 0.8;
+}

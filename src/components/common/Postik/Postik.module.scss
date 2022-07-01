@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+/* post */
+.post_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 867px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.post_title {
+  font-family: 'Jost';
+  font-weight: 700;
+  font-size: 12px;
+  color: #2c2d2e;
+  width: 164px;
+}
+.post_category {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 14px;
+  width: 108px;
+  color: #2c2d2e;
+}
+.post_date {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  width: 99px;
+  color: #2c2d2e;
+}
+.post_publication {
+  font-family: 'Jost';
+  width: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2c2d2e;
+}
+
+.post_hover {
+  display: none;
+  width: 242px;
+  height: 150px;
+  background: #ffffff;
+  border: 1px solid rgba(44, 45, 46, 0.08);
+}
+.post_hover a {
+  color: #2c2d2e;
+  text-decoration: none;
+}
+
+.post_dot:hover .post_hover {
+  display: block;
+  position: absolute;
+  right: 50px;
+}
+
+.post_dot {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #2c2d2e;
+  cursor: pointer;
+  float: right;
+}
+
+.post_eyes {
+  height: 45px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.post_eyes:hover {
+  background: rgba(44, 45, 46, 0.04);
+  border: 1px solid rgba(44, 45, 46, 0.08);
+}
+
+.post_repair {
+  height: 45px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.post_repair:hover {
+  background: rgba(44, 45, 46, 0.04);
+  border: 1px solid rgba(44, 45, 46, 0.08);
+}
+
+.post_delete {
+  height: 45px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.post_delete:hover {
+  background: rgba(44, 45, 46, 0.04);
+  border: 1px solid rgba(44, 45, 46, 0.08);
+}

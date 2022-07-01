@@ -1,0 +1,25 @@
+.input__search {
+  background-image: url('../../../assets/img/search.png');
+  background-repeat: no-repeat;
+  background-position-x: 8px;
+  background-position-y: 6px;
+  padding-left: 37.5px;
+  width: 469px;
+  height: 36px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #4877f2;
+  outline: none;
+}
+
+.input__button {
+  width: 96px;
+  height: 36px;
+  background: #4877f2;
+  border-radius: 0px 4px 4px 0px;
+  font-family: 'Jost';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  border: unset;
+  color: #f2f2f2;
+}

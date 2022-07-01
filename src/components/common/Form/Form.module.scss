@@ -1,0 +1,45 @@
+.form {
+  display: grid;
+  background-color: #ffffff;
+  width: 364px;
+  margin-top: 40px;
+  &_header {
+    padding-top: 24px;
+    line-height: 0;
+    text-align: center;
+  }
+  &_content {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2a2f37;
+  }
+  &_text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #2a2f37;
+    opacity: 0.4;
+  }
+  &_auth {
+    display: flex;
+    justify-content: space-between;
+    width: 255px;
+    margin-top: 16px;
+    margin-left: 54.5px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  &_auth a {
+    text-decoration: none;
+    color: #2c2d2e;
+  }
+  &_auth a:focus {
+    color: #4877f2;
+  }
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+.menu {
+  width: 267px;
+  height: 228px;
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  background: #ffffff;
+  margin-top: 40px;
+  z-index: 11111;
+}
+.menu a {
+  text-decoration: none;
+  color: #2a2f37;
+}
+.menu_email {
+  background-image: url('../../../../assets/img/email.png');
+  background-repeat: no-repeat;
+  background-position-y: 24px;
+  background-position-x: 24px;
+  padding-top: 24px;
+  padding-left: 56px;
+  border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  height: 51px;
+  margin-bottom: 0;
+}
+
+.menu_book {
+  background-image: url('../../../../assets//img//book_blue.png');
+  background-repeat: no-repeat;
+  background-position-y: 26px;
+  background-position-x: 24px;
+  padding-top: 24px;
+  padding-left: 56px;
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+  border-left: 2px solid #4877f2;
+  height: 51px;
+}
+.menu_book a {
+  color: #4877f2;
+}
+
+.menu_exit {
+  background-image: url('../../../../assets/img/exit.png');
+  background-repeat: no-repeat;
+  background-position-y: 26px;
+  background-position-x: 24px;
+  padding-top: 24px;
+  padding-left: 56px;
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 14px;
+  height: 51px;
+}
+.menu_exit:active {
+  border-left: 2px solid #4877f2;
+}

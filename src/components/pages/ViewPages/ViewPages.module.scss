@@ -1,0 +1,42 @@
+.view {
+  width: 1170px;
+}
+
+.view_props {
+  position: relative;
+  left: 303px;
+}
+
+.add_back {
+  top: 40px;
+  left: 303px;
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 14px;
+  color: #2a2f37;
+  width: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add_button {
+  background: #4877f2;
+  position: relative;
+  top: 20px;
+  left: 692px;
+  border-radius: 4px;
+  width: 147px;
+  height: 40px;
+  color: #fff;
+  border: unset;
+  outline: none;
+}
+
+.add_block {
+  top: 96px;
+  left: 300px;
+  width: 867px;
+  height: 80px;
+  background: #ffffff;
+}

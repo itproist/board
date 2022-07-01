@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+.input_email {
+  display: grid;
+  justify-content: center;
+  margin-top: 16px;
+  margin-left: 24px;
+  padding-left: 16px;
+  width: 300px;
+  height: 48px;
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4px;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  outline: none;
+}
+
+.input_email:focus {
+  border-bottom: 2px solid #4877f2;
+}
+
+.input_password {
+  width: 300px;
+  margin-top: 24px;
+  height: 48px;
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4;
+  margin-left: 24px;
+  padding-left: 16px;
+  outline: none;
+}
+
+.input_password:focus {
+  border-bottom: 2px solid #4877f2;
+}
+
+.register_button {
+  width: 321px;
+  height: 48px;
+  color: #ffffff;
+  outline: none;
+  border: unset;
+  background-color: #4877f2;
+  margin-top: 24px;
+  border-radius: 4px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.emailerror {
+  color: red;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.passworderror {
+  color: red;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.psg {
+  position: relative;
+}
+
+.btn_button {
+  background: rgba(42, 47, 55, 0.02);
+  opacity: 0.5;
+  border: unset;
+  position: absolute;
+  top: 32.5px;
+  left: 290px;
+}
+
+.form_exit {
+  display: flex;
+  font-family: 'Jost';
+  width: 308px;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 14px;
+  font-size: 12px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.form_exit a {
+  text-decoration: none;
+  color: #2a2f37;
+}
+
+.border a {
+  text-decoration: none;
+  color: #4877f2;
+}
+
+.border {
+  width: 182px;
+  border-bottom: 2px solid #4877f2;
+}

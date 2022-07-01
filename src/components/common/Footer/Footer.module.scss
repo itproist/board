@@ -1,0 +1,31 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+.footer_left {
+  display: flex;
+  width: 252px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_text {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #424242;
+  opacity: 0.6;
+}
+.footer_right {
+  display: flex;
+  align-items: center;
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 755px;
+  color: #424242;
+  opacity: 0.6;
+}

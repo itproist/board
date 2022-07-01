@@ -1,0 +1,21 @@
+.notfound {
+  display: flex;
+  width: 1170px;
+  margin-top: 140px;
+  &_text {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-right: 240px;
+    color: #2c2d2e;
+    &_opacity {
+      opacity: 0.5;
+    }
+  }
+  &_img {
+    position: relative;
+    bottom: 100px;
+  }
+}
