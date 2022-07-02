@@ -6,6 +6,7 @@ import backarrow from '../../../assets/img/arrow/back.png';
 import { useNavigate } from 'react-router-dom';
 import Picture from '../../common/Picture';
 import PostForm from '../../common/Post/PostForm';
+import Testing from '../../common/Testing';
 
 const ViewPages = () => {
   const navigate = useNavigate();
@@ -19,8 +20,8 @@ const ViewPages = () => {
           Вернуться назад
         </div>
         <div className={styles.add_block}>
-          <button type="button" className={styles.add_button}>
-            Сохранить
+          <button disabled type="button" className={styles.add_button}>
+            Просмотр
           </button>
         </div>
         <PostForm />

@@ -4,12 +4,11 @@
 
 .view_props {
   position: relative;
-  left: 303px;
+  // bottom: 220px;
 }
 
 .add_back {
   top: 40px;
-  left: 303px;
   font-family: 'Jost';
   font-weight: 400;
   font-size: 14px;
@@ -34,8 +33,9 @@
 }
 
 .add_block {
+  margin-top: 32px;
   top: 96px;
-  left: 300px;
+  // left: 300px;
   width: 867px;
   height: 80px;
   background: #ffffff;

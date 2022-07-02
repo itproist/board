@@ -18,8 +18,8 @@ const RepairPages = () => {
           Вернуться назад
         </div>
         <div className={styles.add_block}>
-          <button type="button" className={styles.add_button}>
-            Сохранить
+          <button disabled type="button" className={styles.add_button}>
+            Просмотр
           </button>
         </div>
         <PostForm />

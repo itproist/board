@@ -11,16 +11,16 @@ const AddPages = () => {
   const navigate = useNavigate();
   const back = () => navigate(-1);
   return (
-    <div className={styles.add}>
+    <div className={styles.view}>
       <Menu ad="Объявления" logout="Выход" />
-      <div className={styles.add_exit}>
+      <div className={styles.view_props}>
         <div className={styles.add_back}>
           <Picture src={backarrow} alt="back" onClick={back} />
           Вернуться назад
         </div>
         <div className={styles.add_block}>
-          <button type="button" className={styles.add_button}>
-            Сохранить
+          <button disabled type="button" className={styles.add_button}>
+            Просмотр
           </button>
         </div>
         <PostForm />
